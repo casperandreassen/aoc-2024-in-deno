@@ -69,6 +69,28 @@
       "runtimeExecutable": "/opt/homebrew/bin/deno",
       "runtimeArgs": ["run", "--unstable", "--inspect-wait", "--allow-all"],
       "attachSimplePort": 9229
+    },
+    {
+      "request": "launch",
+      "name": "Day 4.1",
+      "type": "node",
+      "program": "${workspaceFolder}/src/day4/41.ts",
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "runtimeExecutable": "/opt/homebrew/bin/deno",
+      "runtimeArgs": ["run", "--unstable", "--inspect-wait", "--allow-all"],
+      "attachSimplePort": 9229
+    },
+    {
+      "request": "launch",
+      "name": "Day 4.2",
+      "type": "node",
+      "program": "${workspaceFolder}/src/day4/42.ts",
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "runtimeExecutable": "/opt/homebrew/bin/deno",
+      "runtimeArgs": ["run", "--unstable", "--inspect-wait", "--allow-all"],
+      "attachSimplePort": 9229
     }
   ]
 }
