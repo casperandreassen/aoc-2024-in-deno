@@ -41,7 +41,7 @@ function checkForMas(i: number, j: number, input: string[]) {
   return 0;
 }
 
-export async function _41() {
+export async function _42() {
   const input = await getPuzzleInput("./src/day4/input.txt");
   let numberOfXmas = 0;
 
@@ -57,5 +57,5 @@ export async function _41() {
 }
 
 if (import.meta.main) {
-  _41();
+  _42();
 }
